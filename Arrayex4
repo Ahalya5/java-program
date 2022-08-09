@@ -1,0 +1,9 @@
+import java.util.Arrays;
+public class Arrayex4{
+    public static void main(String[] args){
+        int number={ 89,67,2,45,7,9,6,7};
+        Arrays.sort(number);
+        System.out.println(Arrays.tostring(number));
+        System.out.println(number(number.lenght-2));
+    }
+}
